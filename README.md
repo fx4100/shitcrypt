@@ -17,3 +17,8 @@ as i said, **experimental**. use it for either stability tests or "ooh, i wanna 
 
 ### usage
 it could either encrypt or decrypt a text or file by given pass, read the .py or "shit.py --h" for more details.
+
+### license
+MIT.
+do whatever u want.
+***im not responsible for illegal usage nor thermonuclear war.***
