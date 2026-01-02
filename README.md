@@ -18,6 +18,9 @@ as i said, **experimental**. use it for either stability tests or "ooh, i wanna 
 ### usage
 it could either encrypt or decrypt a text or file by given pass, read the .py or "shit.py --h" for more details.
 
+what it does is simple:
+u give pass and text/file, gets stretched using repeated SHA-256 (shit KDF), splits input into 32-bit words, continous rounds with XOR shit, parallellizes with `ProcessPoolExecutor` and succesfully fucks CPU, final output is hex-coded with a header so the rounds can be found and used easily to decrypt. do NOT use for private or real shit.
+
 ### license
 MIT.
 do whatever u want.
